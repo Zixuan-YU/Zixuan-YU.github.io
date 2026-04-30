@@ -5,7 +5,17 @@ on:
     branches:
       - main
     paths:
-      - "site/**"
+      - "assets/**"
+      - "_bibliography/**"
+      - "_data/**"
+      - "_includes/**"
+      - "_layouts/**"
+      - "_pages/**"
+      - "_plugins/**"
+      - "_sass/**"
+      - "_config.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
@@ -19,8 +29,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Deploy static site
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Build site
+        run: |
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Deploy site
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: site
+          folder: _site
           branch: gh-pages
