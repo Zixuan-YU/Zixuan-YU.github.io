@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://Zixuan-YU.github.io/sitemap.xml
