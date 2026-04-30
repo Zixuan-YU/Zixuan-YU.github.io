@@ -29,6 +29,8 @@ latest_posts:
 
 I am a PhD student in Biomedical and Health Informatics at the University of Washington.
 
-My work connects clinical natural language processing, biomedical data science, and health AI evaluation. I am interested in reliable AI systems for clinical text, medical coding, annotation, and biomedical discovery.
+My work connects clinical natural language processing, biomedical data science, and health AI evaluation.
 
-I have worked on clinical NLP pipelines, medical code retrieval benchmarks, AI assisted visualization, and genomic studies of HCV clearance.
+I study reliable AI systems for clinical text, medical coding, annotation, and biomedical discovery.
+
+My recent work includes clinical NLP pipelines, medical code retrieval benchmarks, AI assisted visualization, and genomic studies of HCV clearance.

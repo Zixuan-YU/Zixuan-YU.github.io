@@ -11,8 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Avery Yu is a PhD student in Biomedical and Health Informatics at the University of Washington.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Personal academic website.
 keywords: clinical NLP, biomedical AI, health informatics, data science, genetic epidemiology # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: icon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -184,14 +183,24 @@ exclude:
   - _books/
   - _projects/
   - assets/audio/
+  - assets/html/
   - assets/jupyter/
+  - assets/json/
   - assets/video/
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/teaching.md
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - requirements.txt
   - vendor
 keep_files:
   - CNAME

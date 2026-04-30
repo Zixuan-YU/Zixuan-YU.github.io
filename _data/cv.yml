@@ -1,21 +1,38 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Informatics, Biomedical and Health Informatics
+    - title: PhD in Informatics
       institution: University of Washington
+      department: Biomedical and Health Informatics
       year: 2024 to 2028
       description:
+        - GPA 3.9 of 4.0
         - Top Scholar Award
         - Data Science Specialization
     - title: MS in Computer Science
       institution: University of Colorado Boulder
       year: 2024 to 2027
+      description:
+        - GPA 4.0 of 4.0
     - title: MHS in Genetic Epidemiology
       institution: Johns Hopkins University Bloomberg School of Public Health
       year: 2021 to 2023
-    - title: Bachelor of Medicine, Bachelor of Surgery
+      description:
+        - GPA 3.9 of 4.0
+    - title: Bachelor of Medicine and Bachelor of Surgery
       institution: Zhejiang University City College
       year: 2016 to 2021
+      description:
+        - MD equivalent
+        - GPA 3.9 of 4.0
+
+- title: Publications
+  type: list
+  contents:
+    - Evaluating Bias in Machine Learning Algorithms. Screening for Inpatient Behavioral Codes. Academy of Consultation Liaison Psychiatry, 2025.
+    - Identity by descent and local ancestry mapping of HCV spontaneous clearance in populations of diverse ancestries. BMC Genomics, 2025.
+    - WoundcareVQA. A Multilingual Visual Question Answering Benchmark Dataset for Wound Care. Journal of Biomedical Informatics, 2025.
+    - Traj CoA. Patient Trajectory Modeling via Chain of Agents for Lung Cancer Risk Prediction. NeurIPS GenAI4Health Workshop, 2025.
 
 - title: Experience
   type: time_table
@@ -24,46 +41,79 @@
       institution: Medeloop
       year: 2025
       description:
-        - Designed evaluation workflows for clinical code retrieval and AI assisted visualization.
+        - Designed a benchmark for medical code retrieval from user terms.
+        - Compared Medeloop outputs with GPT and Llama baselines.
+        - Used customer sets and curated value sets as gold standards.
+        - Deployed a RAG module for scientific plotting workflows.
     - title: Graduate Research Assistant
       institution: University of Washington
+      location: Seattle, WA
       year: 2024 to present
       description:
-        - Built clinical NLP pipelines for note processing, summary review, and concept extraction.
-        - Trained text classifiers for clinical risk prediction.
-        - Designed annotation protocols for medical AI research.
+        - Built a scalable pipeline for more than 3,000 clinical notes.
+        - Used Llama models and expert annotations for summary review.
+        - Trained BERT models for clinical text classification.
+        - Reached 0.81 F1 for predicting violence against health care providers.
+        - Developed guidelines for medical concept identification and summary evaluation.
     - title: Bioinformatics Research Analyst
       institution: Washington University in St. Louis School of Medicine
+      location: St. Louis, MO
       year: 2023 to 2024
       description:
-        - Processed genomic data for large scale association studies.
-        - Optimized phenotype databases for cohort analysis.
+        - Built ETL workflows for genome wide association studies.
+        - Integrated dosage processing, QC filtering, and parallel computation.
+        - Reduced processing time by 70 percent.
+        - Maintained genomic and phenotype databases for cohort analysis.
     - title: Graduate Research Assistant
       institution: Johns Hopkins University
+      location: Baltimore, MD
       year: 2021 to 2023
       description:
-        - Studied HCV clearance with rare variant analysis and IBD haplotype mapping.
+        - Studied host susceptibility to HCV clearance.
+        - Analyzed rare variants in diverse ancestry cohorts.
+        - Mapped IBD haplotypes across African and European ancestry samples.
+        - Detected more than 7.3 million combined IBD segments.
     - title: Graduate Student Data Analyst
       institution: Johns Hopkins Center for Communication Programs
+      location: Remote
       year: 2022 to 2023
       description:
-        - Built statistical models and R Shiny dashboards for health communication studies.
+        - Built models to assess questionnaire quality and construct validity.
+        - Improved data workflows with R, ShinyR, and Python.
+        - Created visualizations for survey quality monitoring.
+    - title: Student Physician
+      institution: Sir Run Run Shaw Hospital, Zhejiang University
+      location: Hangzhou, China
+      year: 2020 to 2021
+      description:
+        - Rotated through medical departments and supported patient care.
+        - Maintained electronic health records for diagnosis and treatment.
 
-- title: Publications
+- title: Relevant Coursework
   type: list
   contents:
-    - Identity by descent and local ancestry mapping of HCV spontaneous clearance in populations of diverse ancestries. BMC Genomics, 2025.
-    - WoundcareVQA. A Multilingual Visual Question Answering Benchmark Dataset for Wound Care. Journal of Biomedical Informatics, 2025.
+    - Informatics Research Methods
+    - Clinical Data Analysis
+    - Data Science I and II
+    - Statistical Machine Learning
+    - Deep Learning and Medical Imaging
+    - Statistical Computing
+    - Multilevel Statistical Models
+    - Methods in Biostatistics
+    - Data Structure
 
 - title: Skills
   type: list
   contents:
-    - Python, Java, R, SQL, HTML and CSS, Shell, Bash
-    - PyTorch, Flask, REST APIs, Git, Docker, LaTeX, DICOM, AWS, ShinyR, Transformers, NumPy, Matplotlib
+    - Languages. Python, Java, R, SQL, HTML, CSS, Shell, and Bash.
+    - Tools. PyTorch, Flask, REST APIs, Git, Docker, LaTeX, DICOM, AWS, ShinyR, Transformers, NumPy, and Matplotlib.
+    - Areas. Clinical NLP, health AI evaluation, biomedical data science, genetic epidemiology, and annotation design.
 
 - title: Honors and Awards
   type: list
   contents:
     - Top Scholar Award
-    - Merit scholarships and Zhejiang Provincial Government Scholarship
+    - First Class Merit Scholarship
+    - Zhejiang Provincial Government Scholarship
+    - Freshman Elite Scholarship
     - Mathematical Contest in Modeling Honorable Mention
