@@ -8,25 +8,16 @@
         - GPA 3.9 / 4.0
         - Top Scholar Award
         - Data Science Specialization
-      linkitems:
-        - linkname: Program
-          link: https://bime.uw.edu/education-programs/research-phd/
     - title: MHS in Genetic Epidemiology
       institution: Johns Hopkins University Bloomberg School of Public Health
       year: 2021 to 2023
       description:
         - GPA 3.9 / 4.0
-      linkitems:
-        - linkname: School
-          link: https://publichealth.jhu.edu/
     - title: MD (Bachelor of Medicine and Bachelor of Surgery)
       institution: Hangzhou City University, formerly Zhejiang University City College
       year: 2016 to 2021
       description:
         - GPA 3.9 / 4.0
-      linkitems:
-        - linkname: School
-          link: https://english.hzcu.edu.cn/
 
 - title: Publications
   type: list
