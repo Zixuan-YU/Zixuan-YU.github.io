@@ -1,42 +1,48 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Informatics
+    - title: PhD in Biomedical and Health Informatics
       institution: University of Washington
-      department: Biomedical and Health Informatics
       year: 2024 to 2028
       description:
-        - GPA 3.9 of 4.0
+        - GPA 3.9 / 4.0
         - Top Scholar Award
         - Data Science Specialization
-    - title: MS in Computer Science
-      institution: University of Colorado Boulder
-      year: 2024 to 2027
-      description:
-        - GPA 4.0 of 4.0
+      linkitems:
+        - linkname: Program
+          link: https://bime.uw.edu/education-programs/research-phd/
     - title: MHS in Genetic Epidemiology
       institution: Johns Hopkins University Bloomberg School of Public Health
       year: 2021 to 2023
       description:
-        - GPA 3.9 of 4.0
-    - title: Bachelor of Medicine and Bachelor of Surgery
-      institution: Zhejiang University City College
+        - GPA 3.9 / 4.0
+      linkitems:
+        - linkname: School
+          link: https://publichealth.jhu.edu/
+    - title: MD (Bachelor of Medicine and Bachelor of Surgery)
+      institution: Hangzhou City University, formerly Zhejiang University City College
       year: 2016 to 2021
       description:
-        - MD equivalent
-        - GPA 3.9 of 4.0
+        - GPA 3.9 / 4.0
+      linkitems:
+        - linkname: School
+          link: https://english.hzcu.edu.cn/
 
 - title: Publications
   type: list
   contents:
-    - Evaluating Bias in Machine Learning Algorithms. Screening for Inpatient Behavioral Codes. Academy of Consultation Liaison Psychiatry, 2025.
-    - Identity by descent and local ancestry mapping of HCV spontaneous clearance in populations of diverse ancestries. BMC Genomics, 2025.
-    - WoundcareVQA. A Multilingual Visual Question Answering Benchmark Dataset for Wound Care. Journal of Biomedical Informatics, 2025.
+    - Evaluating Bias in Machine Learning Algorithms. Screening for Inpatient Behavioral Codes. Academy of Consultation Liaison Psychiatry, 2025. <a href="https://doi.org/10.1016/j.jaclp.2025.10.223">DOI</a>
+    - Identity by descent and local ancestry mapping of HCV spontaneous clearance in populations of diverse ancestries. BMC Genomics, 2025. <a href="https://doi.org/10.1186/s12864-024-11076-6">DOI</a>
+    - WoundcareVQA. A Multilingual Visual Question Answering Benchmark Dataset for Wound Care. Journal of Biomedical Informatics, 2025. <a href="https://doi.org/10.1016/j.jbi.2025.104888">DOI</a>
     - Traj CoA. Patient Trajectory Modeling via Chain of Agents for Lung Cancer Risk Prediction. NeurIPS GenAI4Health Workshop, 2025.
 
 - title: Experience
   type: time_table
   contents:
+    - title: AI/ML Intern
+      institution: Seattle Children's Hospital
+      location: Seattle, WA
+      year: Dec 2025 to present
     - title: Research Engineer Intern
       institution: Medeloop
       year: June 2025 to Sept 2025
@@ -91,6 +97,7 @@
 
 - title: Relevant Coursework
   type: list
+  hidden: true
   contents:
     - Informatics Research Methods
     - Clinical Data Analysis

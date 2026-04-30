@@ -14,7 +14,7 @@ footer_text: >
   Personal academic website.
 keywords: clinical NLP, biomedical AI, health informatics, data science, genetic epidemiology # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: icon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🌟 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://Zixuan-YU.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
