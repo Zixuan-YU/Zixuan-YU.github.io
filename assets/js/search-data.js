@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "Education, publications, experience, skills, and honors.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -31,6 +31,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-joined-medeloop-as-a-research-engineer-intern",
           title: 'Joined Medeloop as a Research Engineer Intern.',
+          description: "",
+          section: "News",},{id: "news-joined-seattle-children-s-hospital-as-an-ai-ml-intern",
+          title: 'Joined Seattle Children’s Hospital as an AI/ML Intern.',
           description: "",
           section: "News",},{
         id: 'social-email',
