@@ -27,10 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Biomedical and Health Informatics at the University of Washington.
+I work on clinical natural language processing and reliable AI systems for healthcare. My research interests include using large language models to analyze electronic health records, summarize clinical notes, support medical coding and annotation, and build predictive models from clinical text.
 
-My work connects clinical natural language processing, biomedical data science, and health AI evaluation.
+Before moving into clinical informatics, I worked on genetic susceptibility to rare diseases and infections. I earned my MD/MBBS degree in China, and later became interested in data-driven approaches to healthcare, where I saw opportunities to contribute to patient care at a broader scale.
 
-I study reliable AI systems for clinical text, medical coding, annotation, and biomedical discovery.
+Outside of research, I enjoy skiing, Pilates, and spending time with my cat, Picasso.
 
-My recent work includes clinical NLP pipelines, medical code retrieval benchmarks, AI assisted visualization, and genomic studies of HCV clearance.
+<div class="row mt-4">
+  <div class="col-sm-8">
+    <img src="{{ '/assets/img/picasso.jpeg' | relative_url }}" alt="Picasso the cat" class="img-fluid rounded z-depth-1">
+    <div class="caption">Picasso</div>
+  </div>
+</div>
