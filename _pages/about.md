@@ -12,6 +12,11 @@ profile:
     <p>Seattle, Washington</p>
     <p><a href="mailto:zixuan.jhu@gmail.com">zixuan.jhu@gmail.com</a></p>
     <p><a href="https://scholar.google.com/citations?user=0CMZR7YAAAAJ&hl=en">Google Scholar</a></p>
+    <div class="profile-actions" aria-label="Profile links">
+      <a href="/assets/pdf/Avery_Yu_CV.pdf" title="CV" aria-label="CV">CV</a>
+      <a href="https://github.com/Zixuan-YU" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/avery-y-b1bb71187/" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
