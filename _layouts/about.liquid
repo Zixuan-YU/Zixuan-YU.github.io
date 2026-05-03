@@ -42,10 +42,32 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
+      {% if page.picasso and page.picasso.enabled and page.picasso.image %}
+        <div class="row mt-4 about-news-picasso">
+          <div class="col-md-7">
+            <h2>
+              <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+            </h2>
+            {% include news.liquid limit=true %}
+          </div>
+          <div class="col-md-5">
+            <h2>picasso</h2>
+            <img
+              src="{{ page.picasso.image | prepend: 'assets/img/' | relative_url | bust_file_cache }}"
+              alt="{{ page.picasso.caption | default: 'Picasso' }}"
+              class="img-fluid rounded z-depth-1 about-picasso-img"
+            >
+            {% if page.picasso.caption %}
+              <div class="caption">{{ page.picasso.caption }}</div>
+            {% endif %}
+          </div>
+        </div>
+      {% else %}
+        <h2>
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        </h2>
+        {% include news.liquid limit=true %}
+      {% endif %}
     {% endif %}
 
     <!-- Latest posts -->
@@ -66,10 +88,14 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
+      <div class="social{% if page.social_email_only %} social-email-only{% endif %}">
+        {% if page.social_email_only %}
+          <span class="contact-note">{{ site.contact_note }}</span>
+          <a class="email-button" href="mailto:{{ site.data.socials.email }}" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        {% else %}
+          <div class="contact-icons">{% include social.liquid %}</div>
+          <div class="contact-note">{{ site.contact_note }}</div>
+        {% endif %}
       </div>
     {% endif %}
 

@@ -195,10 +195,23 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  figure {
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  img.rounded-circle {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center 34%;
+    transform: translateY(-4%) scale(1.06);
+  }
+
   .more-info {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: inherit;
+    text-align: center;
 
     p {
       display: inline-block;
@@ -209,11 +222,11 @@ ul.task-list input[type="checkbox"] {
   .profile-actions {
     display: flex;
     justify-content: center;
-    gap: 1.35rem;
+    gap: 1rem;
     margin-top: 0.75rem;
     font-family: inherit;
-    font-size: 1.35rem;
-    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 400;
 
     a {
       color: var(--global-theme-color);
@@ -416,6 +429,19 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// About page
+
+.about-news-picasso {
+  align-items: start;
+
+  .about-picasso-img {
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+    object-position: center 45%;
+  }
+}
+
 // Social (bottom)
 
 .social {
@@ -459,6 +485,38 @@ ul.task-list input[type="checkbox"] {
 
   .contact-note {
     font-size: 0.8rem;
+  }
+}
+
+.social.social-email-only {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  margin-top: 1.5rem;
+
+  .contact-note {
+    font-size: 0.8rem;
+  }
+
+  .email-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.7rem;
+    height: 1.7rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 50%;
+    color: var(--global-theme-color);
+    font-size: 0.85rem;
+    line-height: 1;
+    text-decoration: none;
+  }
+
+  .email-button:hover {
+    color: var(--global-hover-color);
+    border-color: var(--global-hover-color);
+    text-decoration: none;
   }
 }
 
