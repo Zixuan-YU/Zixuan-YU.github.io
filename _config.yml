@@ -11,7 +11,8 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Avery Yu is a PhD student in Biomedical and Health Informatics at the University of Washington.
 footer_text: >
-  Personal academic website.
+  Personal academic website. Built with the
+  <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: clinical NLP, biomedical AI, health informatics, data science, genetic epidemiology # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌟 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

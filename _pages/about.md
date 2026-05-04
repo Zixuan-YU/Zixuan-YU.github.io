@@ -12,6 +12,8 @@ profile:
     <div class="profile-actions" aria-label="Profile links">
       <a href="mailto:zixuan.jhu@gmail.com" title="Email" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://scholar.google.com/citations?user=0CMZR7YAAAAJ&hl=en" title="Google Scholar" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.linkedin.com/in/avery-y-b1bb71187/" title="LinkedIn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/Zixuan-YU" title="GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
     </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"

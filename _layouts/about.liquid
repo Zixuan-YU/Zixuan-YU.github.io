@@ -51,7 +51,6 @@ layout: default
             {% include news.liquid limit=true %}
           </div>
           <div class="col-md-5">
-            <h2>picasso</h2>
             <img
               src="{{ page.picasso.image | prepend: 'assets/img/' | relative_url | bust_file_cache }}"
               alt="{{ page.picasso.caption | default: 'Picasso' }}"

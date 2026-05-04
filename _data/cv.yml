@@ -36,12 +36,13 @@
       year: Dec 2025 to present
     - title: Research Engineer Intern
       institution: Medeloop
+      location: Seattle, WA
       year: June 2025 to Sept 2025
-      description:
-        - Designed a benchmark for medical code retrieval from user terms.
-        - Compared Medeloop outputs with GPT and Llama baselines.
-        - Used customer sets and curated value sets as gold standards.
-        - Deployed a RAG module for scientific plotting workflows.
+      # description:
+      #   - Designed a benchmark for medical code retrieval from user terms.
+      #   - Compared Medeloop outputs with GPT and Llama baselines.
+      #   - Used customer sets and curated value sets as gold standards.
+      #   - Deployed a RAG module for scientific plotting workflows.
     - title: Graduate Research Assistant
       institution: University of Washington
       location: Seattle, WA
