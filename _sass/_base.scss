@@ -608,12 +608,36 @@ footer.sticky-bottom {
   color: var(--global-text-color);
 }
 
-.experience-cards {
+body.page-cv > .container {
+  max-width: 1240px;
+}
+
+body.page-cv > .container > .row > .col-sm-3 {
+  flex: 0 0 18%;
+  max-width: 18%;
+}
+
+body.page-cv > .container > .row > .col-sm-9 {
+  flex: 0 0 82%;
+  max-width: 82%;
+}
+
+.education-rows {
   display: grid;
   gap: 1rem;
 }
 
-.experience-card {
+.education-card-details {
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}
+
+.cv-entry-cards {
+  display: grid;
+  gap: 1rem;
+}
+
+.cv-entry-card {
   padding: 1rem 1.1rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 8px;
@@ -621,25 +645,30 @@ footer.sticky-bottom {
   box-shadow: 0 8px 24px rgba(48, 39, 86, 0.06);
 }
 
-.experience-card-topline {
+.cv-entry-card-simple {
+  color: var(--global-text-color);
+  font-size: 0.95rem;
+}
+
+.cv-entry-topline {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 1.2rem;
 }
 
-.experience-card-main {
+.cv-entry-main {
   min-width: 0;
 }
 
-.experience-role {
+.cv-entry-title {
   margin: 0 0 0.3rem;
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--global-text-color);
 }
 
-.experience-place {
+.cv-entry-place {
   margin: 0;
   color: var(--global-text-color-light);
   font-size: 0.95rem;
@@ -650,12 +679,12 @@ footer.sticky-bottom {
   }
 }
 
-.experience-meta {
+.cv-entry-meta {
   flex: 0 0 190px;
   text-align: right;
 }
 
-.experience-date {
+.cv-entry-date {
   display: inline-block;
   padding: 0.3rem 0.55rem;
   border-radius: 999px;
@@ -667,7 +696,7 @@ footer.sticky-bottom {
   text-transform: uppercase;
 }
 
-.experience-location {
+.cv-entry-location {
   display: block;
   margin-top: 0.35rem;
   color: var(--global-text-color-light);
@@ -679,16 +708,26 @@ footer.sticky-bottom {
   }
 }
 
-.experience-items {
+.cv-entry-description {
+  margin-top: 0.75rem;
+}
+
+.cv-entry-items {
   margin-top: 0.75rem;
 }
 
 @media (max-width: 767px) {
-  .experience-card-topline {
+  body.page-cv > .container > .row > .col-sm-3,
+  body.page-cv > .container > .row > .col-sm-9 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .cv-entry-topline {
     display: block;
   }
 
-  .experience-meta {
+  .cv-entry-meta {
     margin-top: 0.6rem;
     text-align: left;
   }

@@ -1,0 +1,29 @@
+<div class="education-rows">
+  {% for content in entry.contents %}
+    <article class="cv-entry-card education-card">
+      <div class="cv-entry-topline">
+        <div class="cv-entry-main">
+          <h4 class="cv-entry-title">{{ content.institution }}</h4>
+          <p class="cv-entry-place education-program">
+            <i class="fa-solid fa-building-columns iconinstitution"></i>
+            {{ content.title }}
+          </p>
+        </div>
+        {% if content.year %}
+          <div class="cv-entry-meta">
+            <span class="cv-entry-date">{{ content.year }}</span>
+          </div>
+        {% endif %}
+      </div>
+      {% if content.description %}
+        <ul class="items education-card-details">
+          {% for item in content.description %}
+            <li>
+              <span class="item">{{ item }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

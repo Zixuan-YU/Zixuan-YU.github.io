@@ -8,11 +8,12 @@
         - GPA 3.9 / 4.0
         - Top Scholar Award
         - Data Science Specialization
-    - title: MHS in Genetic Epidemiology
-      institution: Johns Hopkins University Bloomberg School of Public Health
+    - title: Master of Health Science in Genetic Epidemiology
+      institution: Johns Hopkins Bloomberg School of Public Health
       year: 2021 to 2023
       description:
         - GPA 3.9 / 4.0
+        - Certificate in Clinical Trials
     - title: MD (Bachelor of Medicine and Bachelor of Surgery)
       institution: Zhejiang University City College
       year: 2016 to 2021
@@ -21,6 +22,7 @@
 
 - title: Publications
   type: list
+  hidden: true
   contents:
     - Evaluating Bias in Machine Learning Algorithms. Screening for Inpatient Behavioral Codes. Academy of Consultation Liaison Psychiatry, 2025. <a href="https://doi.org/10.1016/j.jaclp.2025.10.223">DOI</a>
     - Identity by descent and local ancestry mapping of HCV spontaneous clearance in populations of diverse ancestries. BMC Genomics, 2025. <a href="https://doi.org/10.1186/s12864-024-11076-6">DOI</a>
