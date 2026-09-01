@@ -57,7 +57,8 @@ nav_order: 2
   }
 
   .publication-summary,
-  .publication-tags {
+  .publication-tags,
+  .publication-note {
     color: var(--global-text-color-light);
     font-size: 1rem;
     margin-bottom: 0.55rem;
@@ -79,28 +80,13 @@ nav_order: 2
 <div class="publication-list">
   <article class="publication-entry">
     <div class="publication-meta">
-      <div class="publication-year">2025</div>
+      <div class="publication-year">2026</div>
       <div>
-        <div class="publication-venue">Academy of Consultation Liaison Psychiatry</div>
-        <div class="publication-title">Evaluating Bias in Machine Learning Algorithms: Screening for Inpatient Behavioral Codes</div>
-        <div class="publication-authors">Jessica Chipkin, <strong>Avery Yu</strong>, Nicholas Dobbins, et al.</div>
-        <div class="publication-summary">Evaluates bias in machine learning screening for inpatient behavioral codes.</div>
-        <div class="publication-tags">#Machine Learning #Behavioral Codes #Clinical Risk</div>
-        <div class="publication-links"><a href="https://doi.org/10.1016/j.jaclp.2025.10.223">Paper</a></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="publication-entry">
-    <div class="publication-meta">
-      <div class="publication-year">2025</div>
-      <div>
-        <div class="publication-venue">BMC Genomics</div>
-        <div class="publication-title">Identity by descent and local ancestry mapping of HCV spontaneous clearance in populations of diverse ancestries</div>
-        <div class="publication-authors"><strong>Zixuan Yu</strong>, Sarah Abdel Azim, Priya Duggal, Christopher Vergara</div>
-        <div class="publication-summary">Studies HCV spontaneous clearance through IBD and local ancestry mapping.</div>
-        <div class="publication-tags">#Genomics #HCV #Local Ancestry</div>
-        <div class="publication-links"><a href="https://doi.org/10.1186/s12864-024-11076-6">Paper</a></div>
+        <div class="publication-venue">The Canadian Journal of Psychiatry</div>
+        <div class="publication-title">Investigating Whether Summarizing Raw Clinical Text Affects the Prediction of In-Hospital Violence: A Retrospective Case Study: Évaluation de l’effet Du Résumé Des Textes Cliniques Bruts Sur La Prédiction de La Violence En Milieu Hospitalier: Étude de Cas Rétrospective</div>
+        <div class="publication-authors"><strong>Zixuan Yu</strong>, Jacqueline Chipkin, Julia Siar, et al.</div>
+        <div class="publication-note">August 31, 2026, 07067437261479118.</div>
+        <div class="publication-links"><a href="https://doi.org/10.1177/07067437261479118">Paper</a></div>
       </div>
     </div>
   </article>
@@ -111,9 +97,8 @@ nav_order: 2
       <div>
         <div class="publication-venue">Journal of Biomedical Informatics</div>
         <div class="publication-title">WoundcareVQA: A Multilingual Visual Question Answering Benchmark Dataset for Wound Care</div>
-        <div class="publication-authors">Wen wai Yim, Asma Ben Abacha, Ching Chen, Jinyue Xu, Ashwath Subbarao, Rachel Doerning, <strong>Zixuan Yu</strong>, et al.</div>
-        <div class="publication-summary">Introduces a multilingual visual question answering benchmark for wound care.</div>
-        <div class="publication-tags">#Benchmark #Visual Question Answering #Wound Care</div>
+        <div class="publication-authors">Wen-wai Yim, Asma Ben Abacha, Robert Doerning, et al.</div>
+        <div class="publication-note">170 (October 2025): 104888.</div>
         <div class="publication-links"><a href="https://doi.org/10.1016/j.jbi.2025.104888">Paper</a></div>
       </div>
     </div>
@@ -123,12 +108,60 @@ nav_order: 2
     <div class="publication-meta">
       <div class="publication-year">2025</div>
       <div>
-        <div class="publication-venue">NeurIPS 2025 GenAI4Health</div>
+        <div class="publication-venue">BMC Genomics</div>
+        <div class="publication-title">Identity by Descent and Local Ancestry Mapping of HCV Spontaneous Clearance in Populations of Diverse Ancestries</div>
+        <div class="publication-authors"><strong>Zixuan Yu</strong>, Salma Abdel-Azim, Priya Duggal, Candelaria Vergara</div>
+        <div class="publication-note">26, no. 1 (2025): 661.</div>
+        <div class="publication-links"><a href="https://doi.org/10.1186/s12864-024-11076-6">Paper</a></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-meta">
+      <div class="publication-year">2025</div>
+      <div>
+        <div class="publication-venue">NeurIPS GenAI4Health Workshop 2025</div>
         <div class="publication-title">Traj-CoA: Patient Trajectory Modeling via Chain-of-Agents for Lung Cancer Risk Prediction</div>
-        <div class="publication-authors">Sihang Zeng, Yujuan Fu, Sitong Zhou, <strong>Zixuan Yu</strong>, Lucas Jing Liu, Jun Wen, Matthew Thompson, Ruth Etzioni, Meliha Yetisgen</div>
-        <div class="publication-summary">Frames longitudinal risk prediction as a coordinated agent workflow over patient trajectory evidence.</div>
-        <div class="publication-tags">#Longitudinal EHR #Agentic Systems #Cancer Screening</div>
-        <div class="publication-links"><a href="https://openreview.net/forum?id=S4GfRvVTHV">Paper</a></div>
+        <div class="publication-authors">Sihang Zeng, Yujuan Fu, Sitong Zhou, et al.</div>
+        <div class="publication-note">2025.</div>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-meta">
+      <div class="publication-year">2025</div>
+      <div>
+        <div class="publication-venue">Journal of the Academy of Consultation-Liaison Psychiatry</div>
+        <div class="publication-title">101. Evaluating Bias in Machine Learning Algorithms: Screening for Inpatient Behavioral Codes</div>
+        <div class="publication-authors">Jacqueline Chipkin, <strong>Avery Yu</strong>, Nic Dobbins, Julia Siar, T. Mac Black</div>
+        <div class="publication-note">66 (2025): S159–60.</div>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-meta">
+      <div class="publication-year">n.d.</div>
+      <div>
+        <div class="publication-venue">Manuscript</div>
+        <div class="publication-title">MORQA: Benchmarking Evaluation Metrics for Medical Open-Ended Question Answering</div>
+        <div class="publication-authors">Wen-wai Yim, Asma Ben Abacha, <strong>Zixuan Yu</strong>, Robert Doerning, Fei Xia, Meliha Yetisgen</div>
+        <div class="publication-note">n.d.</div>
+      </div>
+    </div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-meta">
+      <div class="publication-year">2020</div>
+      <div>
+        <div class="publication-venue">Canadian Journal of Gastroenterology and Hepatology</div>
+        <div class="publication-title">Opening a Window on Attention: Adjuvant Therapies for Inflammatory Bowel Disease</div>
+        <div class="publication-authors">Qiyue Wang, Shuyi Mi, <strong>Zixuan Yu</strong>, Qiyi Li, Jiacai Lei</div>
+        <div class="publication-note">2020 (August 2020): 1–8.</div>
+        <div class="publication-links"><a href="https://doi.org/10.1155/2020/7397523">Paper</a></div>
       </div>
     </div>
   </article>
