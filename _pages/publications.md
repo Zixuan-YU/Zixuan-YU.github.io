@@ -93,13 +93,12 @@ nav_order: 2
 
   <article class="publication-entry">
     <div class="publication-meta">
-      <div class="publication-year">2025</div>
+      <div class="publication-year">2026</div>
       <div>
-        <div class="publication-venue">Journal of Biomedical Informatics</div>
-        <div class="publication-title">WoundcareVQA: A Multilingual Visual Question Answering Benchmark Dataset for Wound Care</div>
-        <div class="publication-authors">Wen-wai Yim, Asma Ben Abacha, Robert Doerning, et al.</div>
-        <div class="publication-note">170 (October 2025): 104888.</div>
-        <div class="publication-links"><a href="https://doi.org/10.1016/j.jbi.2025.104888">Paper</a></div>
+        <div class="publication-venue">Proceedings of the Fifteenth Language Resources and Evaluation Conference</div>
+        <div class="publication-title">MORQA: Benchmarking Evaluation Metrics for Medical Open-Ended Question Answering</div>
+        <div class="publication-authors">Wen-wai Yim, Asma Ben Abacha, <strong>Zixuan Yu</strong>, Robert Doerning, Fei Xia, Meliha Yetisgen</div>
+        <div class="publication-note">2026.</div>
       </div>
     </div>
   </article>
@@ -108,11 +107,10 @@ nav_order: 2
     <div class="publication-meta">
       <div class="publication-year">2025</div>
       <div>
-        <div class="publication-venue">BMC Genomics</div>
-        <div class="publication-title">Identity by Descent and Local Ancestry Mapping of HCV Spontaneous Clearance in Populations of Diverse Ancestries</div>
-        <div class="publication-authors"><strong>Zixuan Yu</strong>, Salma Abdel-Azim, Priya Duggal, Candelaria Vergara</div>
-        <div class="publication-note">26, no. 1 (2025): 661.</div>
-        <div class="publication-links"><a href="https://doi.org/10.1186/s12864-024-11076-6">Paper</a></div>
+        <div class="publication-venue">Journal of the Academy of Consultation-Liaison Psychiatry</div>
+        <div class="publication-title">101. Evaluating Bias in Machine Learning Algorithms: Screening for Inpatient Behavioral Codes</div>
+        <div class="publication-authors">Jacqueline Chipkin, <strong>Avery Yu</strong>, Nic Dobbins, Julia Siar, T. Mac Black</div>
+        <div class="publication-note">66 (2025): S159–60.</div>
       </div>
     </div>
   </article>
@@ -133,22 +131,24 @@ nav_order: 2
     <div class="publication-meta">
       <div class="publication-year">2025</div>
       <div>
-        <div class="publication-venue">Journal of the Academy of Consultation-Liaison Psychiatry</div>
-        <div class="publication-title">101. Evaluating Bias in Machine Learning Algorithms: Screening for Inpatient Behavioral Codes</div>
-        <div class="publication-authors">Jacqueline Chipkin, <strong>Avery Yu</strong>, Nic Dobbins, Julia Siar, T. Mac Black</div>
-        <div class="publication-note">66 (2025): S159–60.</div>
+        <div class="publication-venue">Journal of Biomedical Informatics</div>
+        <div class="publication-title">WoundcareVQA: A Multilingual Visual Question Answering Benchmark Dataset for Wound Care</div>
+        <div class="publication-authors">Wen-wai Yim, Asma Ben Abacha, Robert Doerning, et al.</div>
+        <div class="publication-note">104888 (2025).</div>
+        <div class="publication-links"><a href="https://doi.org/10.1016/j.jbi.2025.104888">Paper</a></div>
       </div>
     </div>
   </article>
 
   <article class="publication-entry">
     <div class="publication-meta">
-      <div class="publication-year">n.d.</div>
+      <div class="publication-year">2025</div>
       <div>
-        <div class="publication-venue">Manuscript</div>
-        <div class="publication-title">MORQA: Benchmarking Evaluation Metrics for Medical Open-Ended Question Answering</div>
-        <div class="publication-authors">Wen-wai Yim, Asma Ben Abacha, <strong>Zixuan Yu</strong>, Robert Doerning, Fei Xia, Meliha Yetisgen</div>
-        <div class="publication-note">n.d.</div>
+        <div class="publication-venue">BMC Genomics</div>
+        <div class="publication-title">Identity by Descent and Local Ancestry Mapping of HCV Spontaneous Clearance in Populations of Diverse Ancestries</div>
+        <div class="publication-authors"><strong>Zixuan Yu</strong>, Salma Abdel-Azim, Priya Duggal, Candelaria Vergara</div>
+        <div class="publication-note">26 (1), 661.</div>
+        <div class="publication-links"><a href="https://doi.org/10.1186/s12864-024-11076-6">Paper</a></div>
       </div>
     </div>
   </article>
@@ -160,7 +160,7 @@ nav_order: 2
         <div class="publication-venue">Canadian Journal of Gastroenterology and Hepatology</div>
         <div class="publication-title">Opening a Window on Attention: Adjuvant Therapies for Inflammatory Bowel Disease</div>
         <div class="publication-authors">Qiyue Wang, Shuyi Mi, <strong>Zixuan Yu</strong>, Qiyi Li, Jiacai Lei</div>
-        <div class="publication-note">2020 (August 2020): 1–8.</div>
+        <div class="publication-note">2020 (1), 7397523.</div>
         <div class="publication-links"><a href="https://doi.org/10.1155/2020/7397523">Paper</a></div>
       </div>
     </div>
