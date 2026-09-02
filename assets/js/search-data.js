@@ -32,6 +32,9 @@ ninja.data = [{
           section: "News",},{id: "news-joined-seattle-children-s-hospital-as-an-ai-ml-intern",
           title: 'Joined Seattle Children’s Hospital as an AI/ML Intern.',
           description: "",
+          section: "News",},{id: "news-our-new-paper-on-clinical-text-summarization-and-in-hospital-violence-prediction-was-published-in-the-canadian-journal-of-psychiatry-paper",
+          title: 'Our new paper on clinical text summarization and in-hospital violence prediction was published...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
