@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-my-furry-friends",
+          title: "my furry friends",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/outside-work/";
+          },
         },{id: "news-started-phd-study-at-the-university-of-washington",
           title: 'Started PhD study at the University of Washington.',
           description: "",
