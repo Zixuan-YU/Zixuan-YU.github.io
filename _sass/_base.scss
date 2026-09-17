@@ -429,22 +429,35 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Outside work
+// Furry friends
 
-.outside-work-photo {
-  max-width: 600px;
-  margin: 1.5rem auto 2rem;
+.furry-friends-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 1.5rem 0 2rem;
+
+  figure {
+    margin: 0;
+    min-width: 0;
+  }
 
   img {
     display: block;
     width: 100%;
     height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
     border-radius: 4px;
   }
 
   .caption {
     margin-top: 0.75rem;
     text-align: center;
+  }
+
+  @media (max-width: 575px) {
+    grid-template-columns: 1fr;
   }
 }
 
