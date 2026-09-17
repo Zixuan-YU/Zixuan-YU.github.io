@@ -429,14 +429,22 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// About page
+// Outside work
 
-.about-news-picasso {
-  align-items: start;
+.outside-work-photo {
+  max-width: 600px;
+  margin: 1.5rem auto 2rem;
 
-  .about-picasso-img {
+  img {
+    display: block;
     width: 100%;
-    object-fit: contain;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .caption {
+    margin-top: 0.75rem;
+    text-align: center;
   }
 }
 

@@ -21,14 +21,35 @@ nav_order: 2
   .publication-meta {
     align-items: start;
     display: grid;
-    grid-template-columns: minmax(4rem, 8rem) 1fr;
-    gap: 1rem;
+    grid-template-columns: minmax(4rem, 7rem) 1fr;
+    gap: 1.2rem;
   }
 
   .publication-year {
     color: var(--global-text-color-light);
     font-size: 1.25rem;
     font-weight: 700;
+  }
+
+  .publication-figure {
+    aspect-ratio: 16 / 9;
+    background: var(--global-code-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    box-shadow: 0 10px 24px rgba(45, 35, 75, 0.08);
+    overflow: hidden;
+  }
+
+  .publication-figure img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .publication-featured-content {
+    display: grid;
+    gap: 1rem;
   }
 
   .publication-authors strong {
@@ -69,19 +90,26 @@ nav_order: 2
     font-weight: 600;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     .publication-meta {
       grid-template-columns: 1fr;
       gap: 0.2rem;
+    }
+
+    .publication-figure {
+      margin: 0.5rem 0 0.8rem;
     }
   }
 </style>
 
 <div class="publication-list">
-  <article class="publication-entry">
+  <article class="publication-entry publication-entry-featured">
     <div class="publication-meta">
       <div class="publication-year">2026</div>
-      <div>
+      <div class="publication-featured-content">
+        <div class="publication-figure">
+          <img src="{{ '/assets/img/publications/cjp-clinical-text-violence.jpg' | relative_url }}" alt="Study framework for comparing full text and LLM summary based inpatient violence risk prediction">
+        </div>
         <div class="publication-venue">The Canadian Journal of Psychiatry</div>
         <div class="publication-title">Investigating Whether Summarizing Raw Clinical Text Affects the Prediction of In-Hospital Violence: A Retrospective Case Study: Évaluation de l’effet Du Résumé Des Textes Cliniques Bruts Sur La Prédiction de La Violence En Milieu Hospitalier: Étude de Cas Rétrospective</div>
         <div class="publication-authors"><strong>Zixuan Yu</strong>, Jacqueline Chipkin, Julia Siar, et al.</div>
@@ -99,6 +127,7 @@ nav_order: 2
         <div class="publication-title">MORQA: Benchmarking Evaluation Metrics for Medical Open-Ended Question Answering</div>
         <div class="publication-authors">Wen-wai Yim, Asma Ben Abacha, <strong>Zixuan Yu</strong>, Robert Doerning, Fei Xia, Meliha Yetisgen</div>
         <div class="publication-note">2026.</div>
+        <div class="publication-links"><a href="https://aclanthology.org/anthology-files/anthology-files/pdf/lrec/2026.lrec-1.396.pdf">Paper</a></div>
       </div>
     </div>
   </article>
